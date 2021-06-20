@@ -2,7 +2,6 @@ package api;
 
 import com.WorkSpace.Repository.KisiRepository;
 import com.WorkSpace.entity.Kisi;
-import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -13,7 +12,6 @@ import javax.annotation.PostConstruct;
 import java.util.Calendar;
 import java.util.List;
 
-@RequiredArgsConstructor
 @RestController
 @RequestMapping("/kisi")
 public class KisiController {
